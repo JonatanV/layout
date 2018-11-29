@@ -1,0 +1,54 @@
+body{
+	background-color: #001514;
+
+}
+main{
+	width:80%;
+	margin: 0 auto;
+	background-color: #3F3244;
+	height: 100vh; 
+}
+header{
+	width: 100%;
+	background-image: url(../img/bild.jpg);
+}
+nav{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+
+}
+nav > ul >li{
+	color:red;
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+	border: 1px;
+	border-style: solid;
+	border-color:black; 
+}
+a{
+	text-decoration: none;
+	color:#F0EDEE;
+}
+nav > ul > li:hover{
+	background-color: black;
+}
+nav > ul > li:active{
+	background-color: black;
+}
+section{
+
+}
+h1{
+	font-size: 4em;
+	color: #746D75;
+	font-family: 'Lato', sans-serif;
+}
+p{
+	font-size: 1.2em;
+	font-family: 'Cormorant Upright', serif;
+	color: #F0EDEE;
+}
+html{
+	scroll-behavior: smooth;
+}
